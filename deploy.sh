@@ -52,7 +52,10 @@ PYTHON_VERSION=$(./venv/bin/python -c 'import sys; print(f"{sys.version_info.maj
 PATCH_FILE="$PROJECT_DIR/venv/lib/python$PYTHON_VERSION/site-packages/undetected_chromedriver/patcher.py"
 
 if [ -f "$PATCH_FILE" ]; then
+    # Fix original distutils import
     sed -i 's/from distutils.version import LooseVersion/from setuptools._distutils.version import LooseVersion/g' "$PATCH_FILE"
+    # Fix incorrect packaging import (from previous broken version of deploy.sh)
+    sed -i 's/from packaging.version import Version as LooseVersion/from setuptools._distutils.version import LooseVersion/g' "$PATCH_FILE"
     echo -e "${GREEN}✅ Patch applied for Python $PYTHON_VERSION.${NC}"
 fi
 
