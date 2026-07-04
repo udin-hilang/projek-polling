@@ -1,0 +1,237 @@
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import StaleElementReferenceException, ElementClickInterceptedException, TimeoutException, NoSuchElementException
+from webdriver_manager.chrome import ChromeDriverManager
+import os
+import random
+import time
+import traceback
+import shutil
+import argparse
+
+def safe_click(driver, wait, xpath, description="element"):
+    """Clicks an element with retries, scrolling, and JS fallback to handle intercepts."""
+    for i in range(3):
+        try:
+            element = wait.until(EC.element_to_be_clickable((By.XPATH, xpath)))
+            # Scroll into view to avoid interception by headers/overlays
+            driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
+            time.sleep(0.1)
+            element.click()
+            print(f"Clicked {description}")
+            return True
+        except (StaleElementReferenceException, ElementClickInterceptedException) as e:
+            print(f"Retry {i+1}/3 for {description} due to: {type(e).__name__}. Trying JS click...")
+            try:
+                element = driver.find_element(By.XPATH, xpath)
+                driver.execute_script("arguments[0].click();", element)
+                print(f"Clicked {description} via JS")
+                return True
+            except Exception as js_e:
+                print(f"JS click also failed: {js_e}")
+                time.sleep(1)
+    print(f"Failed to click {description} after 3 attempts")
+    raise Exception(f"Failed to click {description} after 3 attempts")
+
+options = Options()
+options.debugger_address = "127.0.0.1:9222"
+
+photos_dir = "/home/pnyx/projek-polling/upload-gform/bukti-PLN/"
+done_dir = "/home/pnyx/projek-polling/upload-gform/done/"
+result_file = "/home/pnyx/projek-polling/upload-gform/result.txt"
+os.makedirs(done_dir, exist_ok=True)
+
+# Argument parsing for loop limit
+parser = argparse.ArgumentParser(description="Upload photos to Google Form")
+parser.add_argument("-l", "--loops", type=int, help="Number of upload cycles to perform. If not specified, it will run until no more photos are found.")
+args = parser.parse_args()
+
+try:
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=options)
+    wait = WebDriverWait(driver, 10)
+    print("Driver initialized and attached to Chrome.")
+
+    driver.get("https://docs.google.com/forms/d/e/1FAIpQLSfxbVyzZTxQHnUSnd0w8X7EFMymyZQ8CXkWxPX-qagaeqZFtQ/viewform?pli=1")
+    print(f"Successfully opened: {driver.title}")
+    
+    loop_count = 0
+    while True:
+        if args.loops is not None and loop_count >= args.loops:
+            print(f"\nReached the limit of {args.loops} loops. Stopping.")
+            break
+            
+        loop_count += 1
+        print(f"\n--- Starting upload cycle {loop_count} ---")
+
+        # 1. Pick a random photo and extract info
+        try:
+            photos = [f for f in os.listdir(photos_dir) if f.endswith(".jpg")]
+            if not photos:
+                print("No more .jpg files found in the bukti-PLN directory. Waiting 90 seconds to see if new files arrive...")
+                time.sleep(90)
+                continue
+
+            random_photo = random.choice(photos)
+            file_name_without_ext = os.path.splitext(random_photo)[0]
+
+            if "_" not in file_name_without_ext:
+                print(f"Filename {random_photo} does not follow [Name]_[Email].jpg format. Skipping.")
+                # Move invalid file to done or a separate error folder to avoid infinite loop
+                shutil.move(os.path.join(photos_dir, random_photo), os.path.join(done_dir, random_photo))
+                continue
+
+            full_name, email_user = file_name_without_ext.split("_", 1)
+            email = f"{email_user}@uplcid.space"
+            photo_path = os.path.join(photos_dir, random_photo)
+
+            print(f"Selected User: {full_name}")
+            print(f"Email: {email}")
+            print(f"Photo Path: {photo_path}")
+        except Exception as e:
+            print(f"Error picking random photo: {e}")
+            continue
+
+        try:
+            # Navigate to form
+
+            # Basic info filling
+            name_field = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input')))
+            name_field.send_keys(full_name)
+            print(f"Filled name: {full_name}")
+
+            email_field = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div/div[1]/input')))
+            email_field.send_keys(email)
+            print(f"Filled email: {email}")
+
+            # Sequence of clicks
+            safe_click(driver, wait, '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div[1]', "upload button")
+            safe_click(driver, wait, '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[2]/div[7]', "Tegal option")
+            safe_click(driver, wait, '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div/span', "final button")
+            safe_click(driver, wait, '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div[1]/div[1]', "additional element")
+            safe_click(driver, wait, '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div[6]', "next element")
+            safe_click(driver, wait, '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div[2]/span', "last button")
+            safe_click(driver, wait, '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div[1]/div[1]', "repeated element")
+            safe_click(driver, wait, '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div[3]', "final specified element")
+            safe_click(driver, wait, '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div[1]/div[1]', "latest element")
+            safe_click(driver, wait, '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[2]/div[7]', "Tegal option again")
+
+            # Trigger upload dialog
+            print("Clicking the final upload trigger...")
+            upload_div_xpath = '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[4]/div/div/div[2]/div/div[3]'
+            if not safe_click(driver, wait, upload_div_xpath, "upload div button"):
+                raise Exception("Failed to click upload div button")
+
+            time.sleep(1)
+            # --- UPLOAD STRATEGY ---
+            upload_successful = False
+            try:
+                print("Waiting for upload dialog to appear in DOM...")
+                # Wait for the dialog AND the iframe inside it
+                wait.until(EC.presence_of_element_located((By.CLASS_NAME, "picker-dialog")))
+                time.sleep(1) # Give the iframe a moment to load
+                print("Upload dialog detected.")
+
+                abs_photo_path = os.path.abspath(photo_path)
+
+                # 1. Check Main Document
+                print("Context: Main Document. Searching for file inputs...")
+                main_inputs = driver.find_elements(By.CSS_SELECTOR, "input[type='file']")
+                if main_inputs:
+                    target_input = main_inputs[0]
+                    driver.execute_script(
+                        "arguments[0].style.display = 'block'; arguments[0].style.visibility = 'visible'; arguments[0].style.opacity = '1';",
+                        target_input
+                    )
+                    target_input.send_keys(abs_photo_path)
+                    upload_successful = True
+                    print("File uploaded via Main Document.")
+                    time.sleep(2)
+                else:
+                    # 2. Check iframes
+                    print("No file inputs in Main Document. Checking iframes...")
+                    iframes = driver.find_elements(By.TAG_NAME, "iframe")
+                    for idx, iframe in enumerate(iframes):
+                        try:
+                            driver.switch_to.frame(iframe)
+                            iframe_inputs = driver.find_elements(By.CSS_SELECTOR, "input[type='file']")
+                            if iframe_inputs:
+                                target_input = iframe_inputs[0]
+                                driver.execute_script(
+                                    "arguments[0].style.display = 'block'; arguments[0].style.visibility = 'visible'; arguments[0].style.opacity = '1';",
+                                    target_input
+                                )
+                                target_input.send_keys(abs_photo_path)
+                                upload_successful = True
+                                print(f"File uploaded via iframe {idx}.")
+                                time.sleep(2)
+                                break
+                        except Exception as e:
+                            # print(f"Error in iframe {idx}: {e}")
+                            pass
+                        finally:
+                            driver.switch_to.default_content()
+
+                if not upload_successful:
+                    print("CRITICAL: No <input type='file'> found.")
+
+            except Exception as e:
+                print(f"Error during upload process: {e}")
+            finally:
+                driver.switch_to.default_content()
+
+            # Scroll to the bottom of the page before clicking the submit button
+            # print("Scrolling to bottom of form...")
+            # driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            # time.sleep(1)
+
+
+
+            # Final submission click
+            safe_click(driver, wait, '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div[2]/span', "final submit button")
+
+            # Click post-submission link (e.g., "Submit another response") to verify submission
+            # Using a more robust text-based XPath
+            safe_click(driver, wait, '/html/body/div[1]/div[2]/div[1]/div/div[4]/a[2]', "post-submission link")
+
+            # Move file and log success ONLY after the post-submission link is clicked
+            if upload_successful:
+                try:
+                    dest_path = os.path.join(done_dir, os.path.basename(photo_path))
+                    shutil.move(photo_path, dest_path)
+                    print(f"Successfully moved {photo_path} to {dest_path}")
+
+                    # Log success to result.txt
+                    with open(result_file, "a", encoding="utf-8") as f:
+                        f.write(f"{full_name}, {email}\n")
+                    print(f"Logged success for {full_name} to {result_file}")
+                except Exception as e:
+                    print(f"Error processing successful upload (move/log): {e}")
+
+            print("Form submission process finished for this user!")
+
+        except Exception as e:
+            print(f"Error processing user {full_name if 'full_name' in locals() else 'unknown'}: {e}")
+            print(traceback.format_exc())
+            driver.get("https://docs.google.com/forms/d/e/1FAIpQLSfxbVyzZTxQHnUSnd0w8X7EFMymyZQ8CXkWxPX-qagaeqZFtQ/viewform?pli=1")
+            print("Attempting to reset form state by clicking failure recovery XPaths...")
+            safe_click(driver, wait, '//*[ @id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[2]/div/span/span', "recovery button 1")
+            safe_click(driver, wait, '/html/body/div[3]/div/div[2]/div[3]/div[2]/span/span', "recovery button 2")
+            time.sleep(1)
+            # Even on failure, we might want to move the file to avoid stuck loop,
+            # but usually, it's better to keep it and let user debug.
+            # For now, we just continue to the next user.
+            continue
+
+except Exception as e:
+    print(f"Global Error: {e}")
+    print(traceback.format_exc())
+finally:
+    try:
+        driver.quit()
+    except:
+        pass

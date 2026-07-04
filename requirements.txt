@@ -1,0 +1,4 @@
+undetected-chromedriver>=3.5.0
+selenium>=4.15.0
+imaplib2>=2.57
+python-dotenv>=1.0.0

@@ -1,0 +1,47 @@
+Ide‑Ide Paralelisasi untuk Proyek polling-polling
+
+1. **Manager Multiprocessing**
+   - Buat skrip baru (misalnya `run_parallel.py`) yang memanfaatkan modul Python `multiprocessing` untuk mem‑spawn proses pekerja (worker). 
+   - Setiap worker menjalankan alur polling secara mandiri (`poll.py` atau fungsi inti yang sudah dipisahkan) dengan konfigurasi masing‑masing. 
+   - Gunakan `multiprocessing.Manager` untuk berbagi kamus status atau counter antar‑worker sebagai pemantau progres.
+
+2. **Isolasi Penanganan Email per Worker**
+   - Karena Anda menggunakan inbox catch‑all, pastikan setiap worker hanya memproses email yang berkaitan dengan vote/sesi masing‑masing.
+   - Modifikasi `imap_otp.py` (atau logika pengambilan OTP) agar menerima identifier unik (mis. prefix atau label di subjek email) dan menyaring hanya pesan tersebut.
+   - Hindari penggunaan variabel global `delete_sender_emails`; gantikan dengan filter per‑worker untuk mencegah interferensi lintas proses.
+
+3. **Konfigurasi Terpisah untuk Setiap Worker**
+   - Pindahkan parameter runtime yang dapat berubah (seperti URL target, ID vote, filter email) ke dalam file konfigurasi JSON/YAML.
+   - Skrip manager membaca konfigurasi, membuat salinan untuk tiap worker, lalu meng‑inject nilai unik sebelum meluncurkan proses.
+
+4. **Penanganan Captcha yang Terkoordinasi**
+   - Implementasikan flag bersama (`multiprocessing.Value` tipe `c_bool`) yang menandakan apakah captcha Cloudflare sudah terselesaikan.
+   - Worker harus memeriksa flag ini sebelum melakukan scroll atau aksi voting. Jika flag `False`, panggil helper seperti `wait_for_cloudflare()` dan set flag menjadi `True` setelah captcha terpecahkan.
+
+5. **Pengambilan OTP yang Lebih Tangguh**
+   - Bungkus proses pengambilan OTP dalam fungsi yang mengembalikan OTP untuk session ID tertentu.
+   - Worker memanggil fungsi ini dengan identifier sesi mereka, sehingga tidak mengambil OTP yang ditujukan untuk worker lain.
+   - Tambahkan jitter kecil pada polling inbox untuk mengurangi kontensi.
+
+6. **Isolasi Error & Retry**
+   - Bungkus loop utama tiap worker dalam blok `try/except`.
+   - Pada kegagalan, catat log, lakukan retry terbatas, dan lanjutkan tanpa menghentikan seluruh manager.
+   - Gunakan file log per‑worker (`logs/worker_<id>.log`) untuk debug yang lebih mudah.
+
+7. **Pembatasan Sumber Daya**
+   - Izinkan manager membatasi jumlah maksimum worker bersamaan berdasarkan core CPU (`multiprocessing.cpu_count()`) atau nilai konfigurasi.
+   - Sediakan opsi baris perintah, misalnya `--workers N`, untuk mengontrol level paralelisme.
+
+8. **Agregasi Hasil**
+   - Setelah semua worker selesai, kumpulkan hasil (jumlah sukses, vote yang gagal) ke dalam satu laporan CSV.
+   - Manager dapat menulis laporan ini ke `results/parallel_run_<timestamp>.csv`.
+
+9. **Pengujian Alur Paralel**
+   - Tambahkan unit test untuk skrip manager baru serta fungsi OTP terisolasi.
+   - Gunakan mocking pada server IMAP untuk mensimulasikan beberapa aliran email independen.
+
+10. **Pengembangan ke Depan**
+    - Pertimbangkan penggunaan antrian tugas (task queue) seperti `celery` atau `RQ` untuk skala yang lebih besar.
+    - Jika beban kerja meningkat, kontainerisasi tiap worker dengan Docker dan orkestrasi menggunakan `docker‑compose` atau Kubernetes.
+
+Dengan menerapkan ide‑ide di atas, Anda dapat menjalankan banyak proses voting secara bersamaan sambil menjaga logika routing email tetap aman dan menghindari kondisi balapan (race condition) akibat sumber daya yang berbagi.

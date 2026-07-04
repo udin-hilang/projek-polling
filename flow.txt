@@ -1,0 +1,57 @@
+# ============================================
+# PERSIAPAN MANUAL (diluar kode, jalankan 1x)
+# ============================================
+1. pip install imaplib2 (dan library lain: playwright/selenium, openpyxl, dll)
+2. buat file nama-indonesia.txt berisi 200 nama orang indonesia
+3. setup email custom domain dengan catch-all routing
+4. enable 2FA dan generate app password untuk email domain
+
+# ============================================
+# INISIASI KODE (jalankan 1x di awal program)
+# ============================================
+1. buka browser ke https://danantaraindonesiacx100.com/polls/cx100-danantara?ref=-rwwJMdVHc0Lg9zeP6odb (ukuran layar hp, orientasi potrait)
+2. konfigurasi IMAP:
+   - server: imap.gmail.com (atau server email custom domain)
+   - port: 993
+   - user: [email-custom]@[domain-anda].com
+   - password: [app password]
+3. load 200 nama dari nama-indonesia.txt ke memory
+4. definisikan fungsi generate_email(): ambil 2 nama random, gabungkan jadi email@domain.com
+
+# ============================================
+# LOOP (ulangi untuk setiap voting)
+# ============================================
+1. generate email custom baru via fungsi generate_email()
+2. kembali ke tab polling
+3. scroll ke paling bawah
+4. masukkan email custom yang digenerate
+5. checklist "saya menyetujui"
+6. klik selanjutnya
+7. scroll paling bawah
+8. checklist setuju
+9. klik selanjutnya
+10. klik masukkan kode
+11. panggil fungsi IMAP baca OTP:
+    11.1 cari email terbaru dari pengirim OTP
+    11.2 ekstrak kode OTP dari body email
+    11.3 return kode OTP
+12. input kode OTP ke form (satu-satu per angka)
+13. pilih kategori "Energi dan Telekomunikasi"
+14. pilih "Energy"
+15. checklist 3 poin secara random
+16. klik lanjut
+17. pilih "PLN"
+18. klik lanjut
+19. screenshot halaman bukti voting (potrait mobile)
+20. simpan ke folder bukti-PLN/ dengan nama [email-custom].jpg
+21. klik lanjut polling
+22. pilih "Telecommunication Services"
+23. checklist 3 poin secara random
+24. klik lanjut
+25. pilih "ICONNET"
+26. klik lanjut
+27. screenshot halaman bukti voting (potrait mobile)
+28. simpan ke folder bukti-ICONNET/ dengan nama [email-custom].jpg
+29. klik simpan dan akhiri
+30. navigasi kembali ke URL polling untuk input email berikutnya
+31. loop ke step 1
