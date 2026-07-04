@@ -272,6 +272,9 @@ def run_polling_loop(driver, names: list, domain: str, max_votes: int = 0):
                 "//label[.//input[@type='checkbox']]",
                 description="email consent checkbox (label wrapper)"
             )
+            
+            # Check for Cloudflare again before clicking "Next"
+            wait_for_cloudflare(driver)
             # Click the “Selanjutnya” button
             wait_and_click(
                 driver,
@@ -290,6 +293,9 @@ def run_polling_loop(driver, names: list, domain: str, max_votes: int = 0):
                 "//div[contains(@class,'TermsAcceptance_agreementSection')]//label[.//input[@type='checkbox']]",
                 description="terms acceptance checkbox (label wrapper)"
             )
+            
+            # Check for Cloudflare again before clicking "Next" (terms page)
+            wait_for_cloudflare(driver)
             # Click the “Selanjutnya” button (terms page)
             wait_and_click(
                 driver,
@@ -389,6 +395,9 @@ def run_polling_loop(driver, names: list, domain: str, max_votes: int = 0):
 
         except Exception as e:
             logger.error(f"Error in vote #{vote_count}: {type(e).__name__}: {e}")
+            # Take a debug screenshot on error to see what's happening (especially for Captchas)
+            take_screenshot(driver, "debug-errors", f"error_vote_{vote_count}_{email.split('@')[0]}.jpg")
+            logger.info("Debug screenshot saved to debug-errors/")
             logger.info("Restarting loop in 1 second...")
             time.sleep(1)
             continue
