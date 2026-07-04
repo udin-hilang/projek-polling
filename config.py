@@ -3,9 +3,18 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+def get_env_int(key, default):
+    value = os.getenv(key, str(default))
+    # Remove inline comments and strip whitespace
+    clean_value = value.split('#')[0].strip()
+    try:
+        return int(clean_value)
+    except ValueError:
+        return default
+
 IMAP_CONFIG = {
     "host": os.getenv("IMAP_HOST", "imap.gmail.com"),
-    "port": int(os.getenv("IMAP_PORT", "993")),
+    "port": get_env_int("IMAP_PORT", 993),
     "email": os.getenv("IMAP_EMAIL", ""),
     "password": os.getenv("IMAP_PASSWORD", ""),
 }
@@ -23,6 +32,6 @@ OTP_PATTERNS = [
 
 # Polling settings
 EMAIL_DOMAIN = os.getenv("EMAIL_DOMAIN", "")  # Custom domain, empty = use IMAP_EMAIL domain
-MAX_VOTES = int(os.getenv("MAX_VOTES", "0"))
-CLOUDFLARE_WAIT = int(os.getenv("CLOUDFLARE_WAIT", "60"))
+MAX_VOTES = get_env_int("MAX_VOTES", 0)
+CLOUDFLARE_WAIT = get_env_int("CLOUDFLARE_WAIT", 60)
 HEADLESS = os.getenv("HEADLESS", "false").lower() == "true"
