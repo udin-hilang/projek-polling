@@ -45,14 +45,14 @@ echo -e "${YELLOW}Setting up Python environment...${NC}"
 python3 -m venv venv
 ./venv/bin/pip install --upgrade pip
 ./venv/bin/pip install -r requirements.txt
-./venv/bin/pip install packaging
+./venv/bin/pip install packaging setuptools
 
 # 6. Apply undetected-chromedriver Patch (Python 3.14 fix)
 PYTHON_VERSION=$(./venv/bin/python -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")')
 PATCH_FILE="$PROJECT_DIR/venv/lib/python$PYTHON_VERSION/site-packages/undetected_chromedriver/patcher.py"
 
 if [ -f "$PATCH_FILE" ]; then
-    sed -i 's/from distutils.version import LooseVersion/from packaging.version import Version as LooseVersion/g' "$PATCH_FILE"
+    sed -i 's/from distutils.version import LooseVersion/from setuptools._distutils.version import LooseVersion/g' "$PATCH_FILE"
     echo -e "${GREEN}✅ Patch applied for Python $PYTHON_VERSION.${NC}"
 fi
 
