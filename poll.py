@@ -215,6 +215,16 @@ def wait_for_cloudflare(driver, timeout=10):
             # If we find the iframe, check whether the checkbox is already checked
             driver.switch_to.frame(iframe)
             try:
+                # Try clicking the specific user-provided XPath first
+                try:
+                    captcha_checkbox = driver.find_element(By.XPATH, '//*[@id="ncOB5"]/div/label/input')
+                    if captcha_checkbox.is_displayed() and captcha_checkbox.is_enabled():
+                        if not captcha_checkbox.get_attribute('checked'):
+                            captcha_checkbox.click()
+                            logger.info("Clicked Cloudflare checkbox using custom XPath.")
+                except Exception:
+                    pass
+
                 checkbox = driver.find_element(By.CSS_SELECTOR, "input[type='checkbox']")
                 # When solved, the checkbox gets the 'checked' attribute or aria-checked='true'
                 if checkbox.get_attribute('checked') or checkbox.get_attribute('aria-checked') == 'true':
