@@ -183,11 +183,23 @@ def input_otp_digits(driver, otp: str):
         time.sleep(0.1)
 
 
-def take_screenshot(driver, folder: str, filename: str):
-    Path(folder).mkdir(parents=True, exist_ok=True)
-    filepath = Path(folder) / filename
-    driver.save_screenshot(str(filepath))
-    logger.info(f"Screenshot saved: {filepath}")
+def click_cloudflare_checkbox(driver):
+    """Attempts to click the Cloudflare checkbox if the iframe is present."""
+    try:
+        iframe = driver.find_elements(By.CSS_SELECTOR, "iframe[title='Widget containing a Cloudflare security challenge']")
+        if iframe:
+            driver.switch_to.frame(iframe[0])
+            try:
+                captcha_checkbox = driver.find_element(By.XPATH, '//*[@id="ncOB5"]/div/label/input')
+                if captcha_checkbox.is_displayed() and captcha_checkbox.is_enabled():
+                    if not captcha_checkbox.get_attribute('checked'):
+                        captcha_checkbox.click()
+                        logger.info("Clicked Cloudflare checkbox using custom XPath.")
+            except Exception:
+                pass
+            driver.switch_to.default_content()
+    except Exception as e:
+        logger.debug(f"Cloudflare checkbox not found or not clickable: {e}")
 
 
 def wait_for_page_load(driver, timeout=10):
@@ -283,7 +295,8 @@ def run_polling_loop(driver, names: list, domain: str, max_votes: int = 0):
                 description="email consent checkbox (label wrapper)"
             )
             
-            # Check for Cloudflare again before clicking "Next"
+            # Explicitly try to solve Cloudflare before clicking "Next"
+            click_cloudflare_checkbox(driver)
             wait_for_cloudflare(driver)
             # Click the “Selanjutnya” button
             wait_and_click(
@@ -304,7 +317,8 @@ def run_polling_loop(driver, names: list, domain: str, max_votes: int = 0):
                 description="terms acceptance checkbox (label wrapper)"
             )
             
-            # Check for Cloudflare again before clicking "Next" (terms page)
+            # Explicitly try to solve Cloudflare before clicking "Next" (terms page)
+            click_cloudflare_checkbox(driver)
             wait_for_cloudflare(driver)
             # Click the “Selanjutnya” button (terms page)
             wait_and_click(
