@@ -18665,3 +18665,1281 @@ Stacktrace:
 #13 0x7f0c04027c8e <unknown>
 
 2026-07-04 23:08:54,251 - INFO - Restarting loop in 1 second...
+2026-07-04 23:08:55,251 - INFO - 
+==================================================
+2026-07-04 23:08:55,251 - INFO - VOTE #849 - Starting with: agungmahendra@uplcid.space
+2026-07-04 23:08:55,251 - INFO - ==================================================
+2026-07-04 23:08:55,256 - ERROR - Error in vote #849: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:08:55,257 - INFO - Restarting loop in 1 second...
+2026-07-04 23:08:56,257 - INFO - 
+==================================================
+2026-07-04 23:08:56,257 - INFO - VOTE #850 - Starting with: mamankanu@uplcid.space
+2026-07-04 23:08:56,257 - INFO - ==================================================
+2026-07-04 23:08:56,262 - ERROR - Error in vote #850: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:08:56,263 - INFO - Restarting loop in 1 second...
+2026-07-04 23:08:57,263 - INFO - 
+==================================================
+2026-07-04 23:08:57,263 - INFO - VOTE #851 - Starting with: doniarman@uplcid.space
+2026-07-04 23:08:57,263 - INFO - ==================================================
+2026-07-04 23:08:57,268 - ERROR - Error in vote #851: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:08:57,269 - INFO - Restarting loop in 1 second...
+2026-07-04 23:08:58,269 - INFO - 
+==================================================
+2026-07-04 23:08:58,269 - INFO - VOTE #852 - Starting with: agungdimas@uplcid.space
+2026-07-04 23:08:58,269 - INFO - ==================================================
+2026-07-04 23:08:58,275 - ERROR - Error in vote #852: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:08:58,276 - INFO - Restarting loop in 1 second...
+2026-07-04 23:08:59,276 - INFO - 
+==================================================
+2026-07-04 23:08:59,276 - INFO - VOTE #853 - Starting with: alifmuhammad@uplcid.space
+2026-07-04 23:08:59,276 - INFO - ==================================================
+2026-07-04 23:08:59,281 - ERROR - Error in vote #853: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:08:59,281 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:00,281 - INFO - 
+==================================================
+2026-07-04 23:09:00,284 - INFO - VOTE #854 - Starting with: dartodany@uplcid.space
+2026-07-04 23:09:00,284 - INFO - ==================================================
+2026-07-04 23:09:00,290 - ERROR - Error in vote #854: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:00,290 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:01,290 - INFO - 
+==================================================
+2026-07-04 23:09:01,291 - INFO - VOTE #855 - Starting with: kanudeni@uplcid.space
+2026-07-04 23:09:01,291 - INFO - ==================================================
+2026-07-04 23:09:01,296 - ERROR - Error in vote #855: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:01,296 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:02,296 - INFO - 
+==================================================
+2026-07-04 23:09:02,297 - INFO - VOTE #856 - Starting with: bonihadi@uplcid.space
+2026-07-04 23:09:02,297 - INFO - ==================================================
+2026-07-04 23:09:02,302 - ERROR - Error in vote #856: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:02,302 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:03,302 - INFO - 
+==================================================
+2026-07-04 23:09:03,303 - INFO - VOTE #857 - Starting with: paimanbima@uplcid.space
+2026-07-04 23:09:03,303 - INFO - ==================================================
+2026-07-04 23:09:03,309 - ERROR - Error in vote #857: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:03,309 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:04,309 - INFO - 
+==================================================
+2026-07-04 23:09:04,310 - INFO - VOTE #858 - Starting with: gunawanpandu@uplcid.space
+2026-07-04 23:09:04,310 - INFO - ==================================================
+2026-07-04 23:09:04,315 - ERROR - Error in vote #858: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:04,315 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:05,316 - INFO - 
+==================================================
+2026-07-04 23:09:05,316 - INFO - VOTE #859 - Starting with: fajarkardi@uplcid.space
+2026-07-04 23:09:05,316 - INFO - ==================================================
+2026-07-04 23:09:05,321 - ERROR - Error in vote #859: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:05,336 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:06,337 - INFO - 
+==================================================
+2026-07-04 23:09:06,337 - INFO - VOTE #860 - Starting with: kurniamuhammad@uplcid.space
+2026-07-04 23:09:06,337 - INFO - ==================================================
+2026-07-04 23:09:06,342 - ERROR - Error in vote #860: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:06,343 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:07,343 - INFO - 
+==================================================
+2026-07-04 23:09:07,343 - INFO - VOTE #861 - Starting with: budiedwin@uplcid.space
+2026-07-04 23:09:07,343 - INFO - ==================================================
+2026-07-04 23:09:07,349 - ERROR - Error in vote #861: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:07,349 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:08,349 - INFO - 
+==================================================
+2026-07-04 23:09:08,350 - INFO - VOTE #862 - Starting with: edibagus@uplcid.space
+2026-07-04 23:09:08,350 - INFO - ==================================================
+2026-07-04 23:09:08,355 - ERROR - Error in vote #862: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:08,355 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:09,355 - INFO - 
+==================================================
+2026-07-04 23:09:09,356 - INFO - VOTE #863 - Starting with: arifdika@uplcid.space
+2026-07-04 23:09:09,356 - INFO - ==================================================
+2026-07-04 23:09:09,361 - ERROR - Error in vote #863: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:09,362 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:10,362 - INFO - 
+==================================================
+2026-07-04 23:09:10,362 - INFO - VOTE #864 - Starting with: rizalfaisal@uplcid.space
+2026-07-04 23:09:10,363 - INFO - ==================================================
+2026-07-04 23:09:10,368 - ERROR - Error in vote #864: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:10,368 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:11,368 - INFO - 
+==================================================
+2026-07-04 23:09:11,369 - INFO - VOTE #865 - Starting with: ediyusuf@uplcid.space
+2026-07-04 23:09:11,369 - INFO - ==================================================
+2026-07-04 23:09:11,374 - ERROR - Error in vote #865: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:11,374 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:12,374 - INFO - 
+==================================================
+2026-07-04 23:09:12,375 - INFO - VOTE #866 - Starting with: akbardamar@uplcid.space
+2026-07-04 23:09:12,375 - INFO - ==================================================
+2026-07-04 23:09:12,380 - ERROR - Error in vote #866: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:12,380 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:13,381 - INFO - 
+==================================================
+2026-07-04 23:09:13,381 - INFO - VOTE #867 - Starting with: aminoka@uplcid.space
+2026-07-04 23:09:13,381 - INFO - ==================================================
+2026-07-04 23:09:13,386 - ERROR - Error in vote #867: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:13,386 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:14,387 - INFO - 
+==================================================
+2026-07-04 23:09:14,387 - INFO - VOTE #868 - Starting with: andibayu@uplcid.space
+2026-07-04 23:09:14,387 - INFO - ==================================================
+2026-07-04 23:09:14,393 - ERROR - Error in vote #868: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:14,393 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:15,394 - INFO - 
+==================================================
+2026-07-04 23:09:15,394 - INFO - VOTE #869 - Starting with: rendianton@uplcid.space
+2026-07-04 23:09:15,394 - INFO - ==================================================
+2026-07-04 23:09:15,399 - ERROR - Error in vote #869: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:15,400 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:16,400 - INFO - 
+==================================================
+2026-07-04 23:09:16,400 - INFO - VOTE #870 - Starting with: pancaedwin@uplcid.space
+2026-07-04 23:09:16,400 - INFO - ==================================================
+2026-07-04 23:09:16,406 - ERROR - Error in vote #870: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:16,406 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:17,407 - INFO - 
+==================================================
+2026-07-04 23:09:17,407 - INFO - VOTE #871 - Starting with: yudiandre@uplcid.space
+2026-07-04 23:09:17,407 - INFO - ==================================================
+2026-07-04 23:09:17,412 - ERROR - Error in vote #871: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:17,412 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:18,413 - INFO - 
+==================================================
+2026-07-04 23:09:18,413 - INFO - VOTE #872 - Starting with: bambangarif@uplcid.space
+2026-07-04 23:09:18,413 - INFO - ==================================================
+2026-07-04 23:09:18,418 - ERROR - Error in vote #872: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:18,418 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:19,419 - INFO - 
+==================================================
+2026-07-04 23:09:19,419 - INFO - VOTE #873 - Starting with: parjoagung@uplcid.space
+2026-07-04 23:09:19,420 - INFO - ==================================================
+2026-07-04 23:09:19,430 - ERROR - Error in vote #873: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:19,441 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:20,442 - INFO - 
+==================================================
+2026-07-04 23:09:20,442 - INFO - VOTE #874 - Starting with: dendibima@uplcid.space
+2026-07-04 23:09:20,442 - INFO - ==================================================
+2026-07-04 23:09:20,447 - ERROR - Error in vote #874: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:20,447 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:21,448 - INFO - 
+==================================================
+2026-07-04 23:09:21,448 - INFO - VOTE #875 - Starting with: agusmahendra@uplcid.space
+2026-07-04 23:09:21,448 - INFO - ==================================================
+2026-07-04 23:09:21,453 - ERROR - Error in vote #875: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:21,453 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:22,454 - INFO - 
+==================================================
+2026-07-04 23:09:22,454 - INFO - VOTE #876 - Starting with: kurniadeni@uplcid.space
+2026-07-04 23:09:22,454 - INFO - ==================================================
+2026-07-04 23:09:22,459 - ERROR - Error in vote #876: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:22,460 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:23,460 - INFO - 
+==================================================
+2026-07-04 23:09:23,460 - INFO - VOTE #877 - Starting with: ekobima@uplcid.space
+2026-07-04 23:09:23,460 - INFO - ==================================================
+2026-07-04 23:09:23,465 - ERROR - Error in vote #877: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:23,466 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:24,466 - INFO - 
+==================================================
+2026-07-04 23:09:24,466 - INFO - VOTE #878 - Starting with: tonoanton@uplcid.space
+2026-07-04 23:09:24,466 - INFO - ==================================================
+2026-07-04 23:09:24,472 - ERROR - Error in vote #878: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:24,472 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:25,473 - INFO - 
+==================================================
+2026-07-04 23:09:25,473 - INFO - VOTE #879 - Starting with: diannico@uplcid.space
+2026-07-04 23:09:25,473 - INFO - ==================================================
+2026-07-04 23:09:25,477 - ERROR - Error in vote #879: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:25,478 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:26,478 - INFO - 
+==================================================
+2026-07-04 23:09:26,478 - INFO - VOTE #880 - Starting with: budihafiz@uplcid.space
+2026-07-04 23:09:26,478 - INFO - ==================================================
+2026-07-04 23:09:26,483 - ERROR - Error in vote #880: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:26,484 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:27,484 - INFO - 
+==================================================
+2026-07-04 23:09:27,485 - INFO - VOTE #881 - Starting with: safariahmad@uplcid.space
+2026-07-04 23:09:27,485 - INFO - ==================================================
+2026-07-04 23:09:27,490 - ERROR - Error in vote #881: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:27,490 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:28,490 - INFO - 
+==================================================
+2026-07-04 23:09:28,491 - INFO - VOTE #882 - Starting with: miftahkrisna@uplcid.space
+2026-07-04 23:09:28,491 - INFO - ==================================================
+2026-07-04 23:09:28,496 - ERROR - Error in vote #882: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:28,496 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:29,496 - INFO - 
+==================================================
+2026-07-04 23:09:29,497 - INFO - VOTE #883 - Starting with: antonbagus@uplcid.space
+2026-07-04 23:09:29,497 - INFO - ==================================================
+2026-07-04 23:09:29,523 - ERROR - Error in vote #883: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:29,523 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:30,524 - INFO - 
+==================================================
+2026-07-04 23:09:30,524 - INFO - VOTE #884 - Starting with: iwanbagus@uplcid.space
+2026-07-04 23:09:30,524 - INFO - ==================================================
+2026-07-04 23:09:30,529 - ERROR - Error in vote #884: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:30,530 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:31,530 - INFO - 
+==================================================
+2026-07-04 23:09:31,530 - INFO - VOTE #885 - Starting with: ivandicky@uplcid.space
+2026-07-04 23:09:31,530 - INFO - ==================================================
+2026-07-04 23:09:31,535 - ERROR - Error in vote #885: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:31,536 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:32,536 - INFO - 
+==================================================
+2026-07-04 23:09:32,536 - INFO - VOTE #886 - Starting with: krisnanova@uplcid.space
+2026-07-04 23:09:32,536 - INFO - ==================================================
+2026-07-04 23:09:32,541 - ERROR - Error in vote #886: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:32,541 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:33,542 - INFO - 
+==================================================
+2026-07-04 23:09:33,542 - INFO - VOTE #887 - Starting with: kakalazuardi@uplcid.space
+2026-07-04 23:09:33,542 - INFO - ==================================================
+2026-07-04 23:09:33,547 - ERROR - Error in vote #887: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:33,547 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:34,548 - INFO - 
+==================================================
+2026-07-04 23:09:34,548 - INFO - VOTE #888 - Starting with: rahmatgibran@uplcid.space
+2026-07-04 23:09:34,549 - INFO - ==================================================
+2026-07-04 23:09:34,554 - ERROR - Error in vote #888: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:34,569 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:35,571 - INFO - 
+==================================================
+2026-07-04 23:09:35,572 - INFO - VOTE #889 - Starting with: erwinbagus@uplcid.space
+2026-07-04 23:09:35,572 - INFO - ==================================================
+2026-07-04 23:09:35,611 - ERROR - Error in vote #889: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:35,620 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:36,621 - INFO - 
+==================================================
+2026-07-04 23:09:36,621 - INFO - VOTE #890 - Starting with: kakafajar@uplcid.space
+2026-07-04 23:09:36,621 - INFO - ==================================================
+2026-07-04 23:09:36,624 - ERROR - Error in vote #890: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:36,624 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:37,624 - INFO - 
+==================================================
+2026-07-04 23:09:37,625 - INFO - VOTE #891 - Starting with: gibranbais@uplcid.space
+2026-07-04 23:09:37,625 - INFO - ==================================================
+2026-07-04 23:09:37,628 - ERROR - Error in vote #891: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:37,628 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:38,629 - INFO - 
+==================================================
+2026-07-04 23:09:38,629 - INFO - VOTE #892 - Starting with: mahendrajafar@uplcid.space
+2026-07-04 23:09:38,629 - INFO - ==================================================
+2026-07-04 23:09:38,634 - ERROR - Error in vote #892: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:38,634 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:39,635 - INFO - 
+==================================================
+2026-07-04 23:09:39,635 - INFO - VOTE #893 - Starting with: okasandi@uplcid.space
+2026-07-04 23:09:39,635 - INFO - ==================================================
+2026-07-04 23:09:39,642 - ERROR - Error in vote #893: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:39,642 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:40,642 - INFO - 
+==================================================
+2026-07-04 23:09:40,643 - INFO - VOTE #894 - Starting with: pratamaedi@uplcid.space
+2026-07-04 23:09:40,643 - INFO - ==================================================
+2026-07-04 23:09:40,648 - ERROR - Error in vote #894: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:40,664 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:41,664 - INFO - 
+==================================================
+2026-07-04 23:09:41,665 - INFO - VOTE #895 - Starting with: yudijoko@uplcid.space
+2026-07-04 23:09:41,665 - INFO - ==================================================
+2026-07-04 23:09:41,670 - ERROR - Error in vote #895: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:41,670 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:42,670 - INFO - 
+==================================================
+2026-07-04 23:09:42,671 - INFO - VOTE #896 - Starting with: bagusfajar@uplcid.space
+2026-07-04 23:09:42,671 - INFO - ==================================================
+2026-07-04 23:09:42,676 - ERROR - Error in vote #896: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:42,676 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:43,677 - INFO - 
+==================================================
+2026-07-04 23:09:43,677 - INFO - VOTE #897 - Starting with: danyfarhan@uplcid.space
+2026-07-04 23:09:43,677 - INFO - ==================================================
+2026-07-04 23:09:43,680 - ERROR - Error in vote #897: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:43,680 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:44,680 - INFO - 
+==================================================
+2026-07-04 23:09:44,680 - INFO - VOTE #898 - Starting with: septianbenny@uplcid.space
+2026-07-04 23:09:44,680 - INFO - ==================================================
+2026-07-04 23:09:44,685 - ERROR - Error in vote #898: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:44,685 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:45,686 - INFO - 
+==================================================
+2026-07-04 23:09:45,686 - INFO - VOTE #899 - Starting with: tonoiqbal@uplcid.space
+2026-07-04 23:09:45,686 - INFO - ==================================================
+2026-07-04 23:09:45,691 - ERROR - Error in vote #899: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:45,692 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:46,692 - INFO - 
+==================================================
+2026-07-04 23:09:46,692 - INFO - VOTE #900 - Starting with: bambangjoko@uplcid.space
+2026-07-04 23:09:46,692 - INFO - ==================================================
+2026-07-04 23:09:46,695 - ERROR - Error in vote #900: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:46,695 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:47,695 - INFO - 
+==================================================
+2026-07-04 23:09:47,696 - INFO - VOTE #901 - Starting with: miftahsetiawan@uplcid.space
+2026-07-04 23:09:47,696 - INFO - ==================================================
+2026-07-04 23:09:47,700 - ERROR - Error in vote #901: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:47,700 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:48,701 - INFO - 
+==================================================
+2026-07-04 23:09:48,701 - INFO - VOTE #902 - Starting with: banyumahdi@uplcid.space
+2026-07-04 23:09:48,701 - INFO - ==================================================
+2026-07-04 23:09:48,704 - ERROR - Error in vote #902: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:48,704 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:49,705 - INFO - 
+==================================================
+2026-07-04 23:09:49,705 - INFO - VOTE #903 - Starting with: andimahdi@uplcid.space
+2026-07-04 23:09:49,706 - INFO - ==================================================
+2026-07-04 23:09:49,710 - ERROR - Error in vote #903: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:49,710 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:50,710 - INFO - 
+==================================================
+2026-07-04 23:09:50,710 - INFO - VOTE #904 - Starting with: candrabintang@uplcid.space
+2026-07-04 23:09:50,710 - INFO - ==================================================
+2026-07-04 23:09:50,713 - ERROR - Error in vote #904: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:50,713 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:51,713 - INFO - 
+==================================================
+2026-07-04 23:09:51,713 - INFO - VOTE #905 - Starting with: tigordamar@uplcid.space
+2026-07-04 23:09:51,714 - INFO - ==================================================
+2026-07-04 23:09:51,719 - ERROR - Error in vote #905: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:51,719 - INFO - Restarting loop in 1 second...
+2026-07-04 23:09:52,719 - INFO - 
+==================================================
+2026-07-04 23:09:52,720 - INFO - VOTE #906 - Starting with: fajarpratama@uplcid.space
+2026-07-04 23:09:52,720 - INFO - ==================================================
+2026-07-04 23:09:52,724 - ERROR - Error in vote #906: InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x555903b423da <unknown>
+#1 0x555903523ef0 <unknown>
+#2 0x55590356b09e <unknown>
+#3 0x55590359e3f6 <unknown>
+#4 0x5559035987e3 <unknown>
+#5 0x555903597f9c <unknown>
+#6 0x5559034e9c05 <unknown>
+#7 0x555903b089f7 <unknown>
+#8 0x555903b07203 <unknown>
+#9 0x555903af1f16 <unknown>
+#10 0x555903b07d9a <unknown>
+#11 0x555903ad9eb0 <unknown>
+#12 0x5559034e7472 <unknown>
+#13 0x7f0c04027c8e <unknown>
+
+2026-07-04 23:09:52,724 - INFO - Restarting loop in 1 second...
+/usr/lib/python3.14/multiprocessing/resource_tracker.py:475: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-ga_swp0u'}
+  warnings.warn(
