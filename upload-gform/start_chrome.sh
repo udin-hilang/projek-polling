@@ -13,10 +13,15 @@ export DISPLAY=:99
 
 # 3. Launch Google Chrome with Remote Debugging enabled
 echo "Launching Chrome on port 9222..."
+
+# Dynamically determine the project root directory to ensure portability on VPS
+PROJECT_ROOT=$(dirname "$(readlink -f "$0")")
+CHROME_DATA_DIR="$PROJECT_ROOT/chrome-automation"
+
 google-chrome-stable \
     --remote-debugging-port=9222 \
-    --user-data-dir="$HOME/chrome-automation" \
-    --profile-directory="Default" \
+    --user-data-dir="$CHROME_DATA_DIR" \
+    --profile-directory="Profile 1" \
     --no-first-run \
     --no-default-browser \
     --disable-gpu \

@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# Activate Python virtual environment
-source venv/bin/activate
+# Dynamically determine the project root directory
+PROJECT_ROOT=$(dirname "$(readlink -f "$0")")
 
-# Run the bot (pass all arguments to the python script)
-python3 code.py "$@"
+# Activate Python virtual environment using absolute path
+source "$PROJECT_ROOT/venv/bin/activate"
+
+# Run the bot using absolute path to the python script
+python3 "$PROJECT_ROOT/code.py" "$@"

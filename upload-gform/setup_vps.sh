@@ -19,22 +19,23 @@ sudo apt install -y wget curl unzip python3 python3-pip python3-venv xvfb
 
 # 3. Install Google Chrome Stable
 echo "Installing Google Chrome..."
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install -y ./google-chrome-stable_current_amd64.deb
-rm google-chrome-stable_current_amd64.deb
+PROJECT_ROOT=$(dirname "$(readlink -f "$0")")
+wget -O "$PROJECT_ROOT/google-chrome-stable_current_amd64.deb" https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install -y "$PROJECT_ROOT/google-chrome-stable_current_amd64.deb"
+rm "$PROJECT_ROOT/google-chrome-stable_current_amd64.deb"
 
 # 4. Setup Python Virtual Environment
 echo "Setting up Python Virtual Environment..."
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv "$PROJECT_ROOT/venv"
+source "$PROJECT_ROOT/venv/bin/activate"
 
 # 5. Install Python Requirements
 echo "Installing Python libraries..."
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r "$PROJECT_ROOT/requirements.txt"
 
 # 6. Set Permissions for helper scripts
-chmod +x start_chrome.sh run_bot.sh
+chmod +x "$PROJECT_ROOT/start_chrome.sh" "$PROJECT_ROOT/run_bot.sh"
 
 echo "=============================================================================="
 echo "✅ SETUP COMPLETE!"
