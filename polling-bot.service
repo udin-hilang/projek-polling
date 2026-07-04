@@ -1,0 +1,18 @@
+[Unit]
+Description=Polling Bot Service
+After=network.target
+
+[Service]
+# Using root because the project is in /root/projek-polling
+User=root
+Group=root
+WorkingDirectory=/root/projek-polling
+ExecStart=/root/projek-polling/venv/bin/python /root/projek-polling/poll.py
+Restart=always
+RestartSec=5
+EnvironmentFile=/root/projek-polling/.env
+StandardOutput=append:/root/projek-polling/bot.log
+StandardError=append:/root/projek-polling/bot.log
+
+[Install]
+WantedBy=multi-user.target
