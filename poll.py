@@ -190,16 +190,24 @@ def click_cloudflare_checkbox(driver):
         if iframe:
             driver.switch_to.frame(iframe[0])
             try:
-                captcha_checkbox = driver.find_element(By.XPATH, '//*[@id="ncOB5"]/div/label/input')
+                # Using the provided CSS selector for the Cloudflare checkbox
+                captcha_checkbox = driver.find_element(By.CSS_SELECTOR, '#ncOB5 > div > label > input[type=checkbox]')
                 if captcha_checkbox.is_displayed() and captcha_checkbox.is_enabled():
                     if not captcha_checkbox.get_attribute('checked'):
                         captcha_checkbox.click()
-                        logger.info("Clicked Cloudflare checkbox using custom XPath.")
+                        logger.info("Clicked Cloudflare checkbox using CSS selector.")
             except Exception:
                 pass
             driver.switch_to.default_content()
     except Exception as e:
         logger.debug(f"Cloudflare checkbox not found or not clickable: {e}")
+
+
+def take_screenshot(driver, folder: str, filename: str):
+    Path(folder).mkdir(parents=True, exist_ok=True)
+    filepath = Path(folder) / filename
+    driver.save_screenshot(str(filepath))
+    logger.info(f"Screenshot saved: {filepath}")
 
 
 def wait_for_page_load(driver, timeout=10):
