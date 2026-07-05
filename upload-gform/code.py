@@ -65,17 +65,17 @@ try:
             print(f"\nReached the limit of {args.loops} loops. Stopping.")
             break
             
-        loop_count += 1
-        print(f"\n--- Starting upload cycle {loop_count} ---")
 
         # 1. Pick a random photo and extract info
         try:
             photos = [f for f in os.listdir(photos_dir) if f.endswith(".jpg")]
             if not photos:
-                print("No more .jpg files found in the bukti-PLN directory. Waiting 90 seconds to see if new files arrive...")
-                time.sleep(90)
+                # print("No more .jpg files found in the bukti-PLN directory. Waiting 90 seconds to see if new files arrive...")
+                time.sleep(1)
                 continue
 
+            loop_count += 1
+            print(f"\n--- Starting upload cycle {loop_count} ---")
             random_photo = random.choice(photos)
             file_name_without_ext = os.path.splitext(random_photo)[0]
 

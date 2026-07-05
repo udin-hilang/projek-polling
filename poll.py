@@ -326,8 +326,8 @@ def run_polling_loop(driver, names: list, domain: str, max_votes: int = 0):
             )
             
             # Explicitly try to solve Cloudflare before clicking "Next" (terms page)
-            click_cloudflare_checkbox(driver)
-            wait_for_cloudflare(driver)
+            # click_cloudflare_checkbox(driver)
+            # wait_for_cloudflare(driver)
             # Click the “Selanjutnya” button (terms page)
             wait_and_click(
                 driver,
@@ -423,7 +423,9 @@ def run_polling_loop(driver, names: list, domain: str, max_votes: int = 0):
             take_screenshot(driver, "upload-gform/bukti-PLN", f"{name1} {name2}_{email.split('@')[0]}.jpg")
 
             logger.info(f"Vote #{vote_count} completed successfully for {email}")
-            time.sleep(60)
+            sleep_time = random.randint(60, 720)
+            logger.info(f"Sleeping for {sleep_time} seconds before next vote...")
+            time.sleep(sleep_time)
 
         except Exception as e:
             logger.error(f"Error in vote #{vote_count}: {type(e).__name__}: {e}")
